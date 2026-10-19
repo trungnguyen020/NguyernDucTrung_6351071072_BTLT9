@@ -1,0 +1,344 @@
+2026-10-19 10:50:36 [INF] ===== Ứng dụng Quản lý nhà trọ khởi động =====
+2026-10-19 10:50:38 [INF] Tải thành công 34 tỉnh/thành từ API
+2026-10-19 10:50:40 [ERR] Lỗi khi nạp danh sách phòng
+System.IO.FileNotFoundException: The configuration file 'appsettings.json' was not found and is not optional. The expected physical path was 'D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\bin\Debug\net10.0-windows\appsettings.json'.
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_Config() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 15
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_ConnectionString() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 25
+   at QuanLyNhaTro.FormKhachThue.TaoContext() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 26
+   at QuanLyNhaTro.FormKhachThue.NapComboBoxPhong() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 173
+2026-10-19 10:50:40 [INF] Tải thành công 34 tỉnh/thành từ API
+2026-10-19 10:50:40 [ERR] Lỗi khi nạp danh sách phòng
+System.IO.FileNotFoundException: The configuration file 'appsettings.json' was not found and is not optional. The expected physical path was 'D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\bin\Debug\net10.0-windows\appsettings.json'.
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_Config() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 15
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_ConnectionString() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 25
+   at QuanLyNhaTro.FormKhachThue.TaoContext() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 26
+   at QuanLyNhaTro.FormKhachThue.NapComboBoxPhong() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 173
+2026-10-19 10:50:40 [INF] Tải 126 phường/xã cho tỉnh 1
+2026-10-19 10:50:40 [INF] Tải 126 phường/xã cho tỉnh 1
+2026-10-19 10:50:40 [INF] Tải 126 phường/xã cho tỉnh 1
+2026-10-19 10:50:45 [ERR] Lỗi khi nạp combobox lọc phòng
+System.IO.FileNotFoundException: The configuration file 'appsettings.json' was not found and is not optional. The expected physical path was 'D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\bin\Debug\net10.0-windows\appsettings.json'.
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_Config() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 15
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_ConnectionString() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 25
+   at QuanLyNhaTro.FormKhachThue.TaoContext() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 26
+   at QuanLyNhaTro.FormKhachThue.NapComboBoxLocPhong() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 200
+2026-10-19 10:50:45 [ERR] Lỗi khi tải danh sách khách thuê
+System.IO.FileNotFoundException: The configuration file 'appsettings.json' was not found and is not optional. The expected physical path was 'D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\bin\Debug\net10.0-windows\appsettings.json'.
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_Config() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 15
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_ConnectionString() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 25
+   at QuanLyNhaTro.FormKhachThue.TaoContext() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 26
+   at QuanLyNhaTro.FormKhachThue.TaiDanhSachKhach() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 223
+2026-10-19 10:50:47 [ERR] Lỗi khi nạp combobox lọc phòng
+System.IO.FileNotFoundException: The configuration file 'appsettings.json' was not found and is not optional. The expected physical path was 'D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\bin\Debug\net10.0-windows\appsettings.json'.
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_Config() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 15
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_ConnectionString() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 25
+   at QuanLyNhaTro.FormKhachThue.TaoContext() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 26
+   at QuanLyNhaTro.FormKhachThue.NapComboBoxLocPhong() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 200
+2026-10-19 10:50:47 [ERR] Lỗi khi tải danh sách khách thuê
+System.IO.FileNotFoundException: The configuration file 'appsettings.json' was not found and is not optional. The expected physical path was 'D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\bin\Debug\net10.0-windows\appsettings.json'.
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_Config() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 15
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_ConnectionString() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 25
+   at QuanLyNhaTro.FormKhachThue.TaoContext() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 26
+   at QuanLyNhaTro.FormKhachThue.TaiDanhSachKhach() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 223
+2026-10-19 10:50:51 [INF] ===== Ứng dụng đóng =====
+2026-10-19 10:54:45 [INF] ===== Ứng dụng Quản lý nhà trọ khởi động =====
+2026-10-19 10:54:46 [INF] Tải thành công 34 tỉnh/thành từ API
+2026-10-19 10:54:46 [ERR] Lỗi khi nạp danh sách phòng
+System.IO.FileNotFoundException: The configuration file 'appsettings.json' was not found and is not optional. The expected physical path was 'D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\bin\Debug\net10.0-windows\appsettings.json'.
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_Config() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 15
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_ConnectionString() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 25
+   at QuanLyNhaTro.FormKhachThue.TaoContext() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 26
+   at QuanLyNhaTro.FormKhachThue.NapComboBoxPhong() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 173
+2026-10-19 10:54:46 [INF] Tải thành công 34 tỉnh/thành từ API
+2026-10-19 10:54:46 [ERR] Lỗi khi nạp danh sách phòng
+System.IO.FileNotFoundException: The configuration file 'appsettings.json' was not found and is not optional. The expected physical path was 'D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\bin\Debug\net10.0-windows\appsettings.json'.
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_Config() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 15
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_ConnectionString() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 25
+   at QuanLyNhaTro.FormKhachThue.TaoContext() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 26
+   at QuanLyNhaTro.FormKhachThue.NapComboBoxPhong() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 173
+2026-10-19 10:54:46 [INF] Tải 126 phường/xã cho tỉnh 1
+2026-10-19 10:54:46 [INF] Tải 126 phường/xã cho tỉnh 1
+2026-10-19 10:54:46 [INF] Tải 126 phường/xã cho tỉnh 1
+2026-10-19 10:54:48 [ERR] Lỗi khi nạp combobox lọc phòng
+System.IO.FileNotFoundException: The configuration file 'appsettings.json' was not found and is not optional. The expected physical path was 'D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\bin\Debug\net10.0-windows\appsettings.json'.
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_Config() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 15
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_ConnectionString() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 25
+   at QuanLyNhaTro.FormKhachThue.TaoContext() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 26
+   at QuanLyNhaTro.FormKhachThue.NapComboBoxLocPhong() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 200
+2026-10-19 10:54:48 [ERR] Lỗi khi tải danh sách khách thuê
+System.IO.FileNotFoundException: The configuration file 'appsettings.json' was not found and is not optional. The expected physical path was 'D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\bin\Debug\net10.0-windows\appsettings.json'.
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_Config() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 15
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_ConnectionString() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 25
+   at QuanLyNhaTro.FormKhachThue.TaoContext() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 26
+   at QuanLyNhaTro.FormKhachThue.TaiDanhSachKhach() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 223
+2026-10-19 10:54:50 [ERR] Lỗi khi nạp combobox lọc phòng
+System.IO.FileNotFoundException: The configuration file 'appsettings.json' was not found and is not optional. The expected physical path was 'D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\bin\Debug\net10.0-windows\appsettings.json'.
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_Config() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 15
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_ConnectionString() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 25
+   at QuanLyNhaTro.FormKhachThue.TaoContext() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 26
+   at QuanLyNhaTro.FormKhachThue.NapComboBoxLocPhong() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 200
+2026-10-19 10:54:50 [ERR] Lỗi khi tải danh sách khách thuê
+System.IO.FileNotFoundException: The configuration file 'appsettings.json' was not found and is not optional. The expected physical path was 'D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\bin\Debug\net10.0-windows\appsettings.json'.
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_Config() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 15
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_ConnectionString() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 25
+   at QuanLyNhaTro.FormKhachThue.TaoContext() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 26
+   at QuanLyNhaTro.FormKhachThue.TaiDanhSachKhach() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 223
+2026-10-19 10:54:53 [INF] ===== Ứng dụng đóng =====
+2026-10-19 10:55:47 [INF] ===== Ứng dụng Quản lý nhà trọ khởi động =====
+2026-10-19 10:55:48 [INF] Tải thành công 34 tỉnh/thành từ API
+2026-10-19 10:55:48 [ERR] Lỗi khi nạp danh sách phòng
+System.IO.FileNotFoundException: The configuration file 'appsettings.json' was not found and is not optional. The expected physical path was 'D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\bin\Debug\net10.0-windows\appsettings.json'.
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_Config() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 15
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_ConnectionString() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 25
+   at QuanLyNhaTro.FormKhachThue.TaoContext() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 26
+   at QuanLyNhaTro.FormKhachThue.NapComboBoxPhong() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 173
+2026-10-19 10:55:48 [INF] Tải thành công 34 tỉnh/thành từ API
+2026-10-19 10:55:48 [ERR] Lỗi khi nạp danh sách phòng
+System.IO.FileNotFoundException: The configuration file 'appsettings.json' was not found and is not optional. The expected physical path was 'D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\bin\Debug\net10.0-windows\appsettings.json'.
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_Config() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 15
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_ConnectionString() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 25
+   at QuanLyNhaTro.FormKhachThue.TaoContext() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 26
+   at QuanLyNhaTro.FormKhachThue.NapComboBoxPhong() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 173
+2026-10-19 10:55:48 [INF] Tải 126 phường/xã cho tỉnh 1
+2026-10-19 10:55:48 [INF] Tải 126 phường/xã cho tỉnh 1
+2026-10-19 10:55:48 [INF] Tải 126 phường/xã cho tỉnh 1
+2026-10-19 10:55:50 [ERR] Lỗi khi nạp combobox lọc phòng
+System.IO.FileNotFoundException: The configuration file 'appsettings.json' was not found and is not optional. The expected physical path was 'D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\bin\Debug\net10.0-windows\appsettings.json'.
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_Config() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 15
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_ConnectionString() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 25
+   at QuanLyNhaTro.FormKhachThue.TaoContext() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 26
+   at QuanLyNhaTro.FormKhachThue.NapComboBoxLocPhong() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 200
+2026-10-19 10:55:50 [ERR] Lỗi khi nạp danh sách phòng
+System.IO.FileNotFoundException: The configuration file 'appsettings.json' was not found and is not optional. The expected physical path was 'D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\bin\Debug\net10.0-windows\appsettings.json'.
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_Config() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 15
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_ConnectionString() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 25
+   at QuanLyNhaTro.FormKhachThue.TaoContext() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 26
+   at QuanLyNhaTro.FormKhachThue.TaiDanhSachKhach() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 223
+2026-10-19 10:57:24 [ERR] Lỗi khi nạp combobox lọc phòng
+System.IO.FileNotFoundException: The configuration file 'appsettings.json' was not found and is not optional. The expected physical path was 'D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\bin\Debug\net10.0-windows\appsettings.json'.
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_Config() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 15
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_ConnectionString() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 25
+   at QuanLyNhaTro.FormKhachThue.TaoContext() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 26
+   at QuanLyNhaTro.FormKhachThue.NapComboBoxLocPhong() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 200
+2026-10-19 10:57:24 [ERR] Lỗi khi nạp danh sách phòng
+System.IO.FileNotFoundException: The configuration file 'appsettings.json' was not found and is not optional. The expected physical path was 'D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\bin\Debug\net10.0-windows\appsettings.json'.
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_Config() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 15
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_ConnectionString() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 25
+   at QuanLyNhaTro.FormKhachThue.TaoContext() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 26
+   at QuanLyNhaTro.FormKhachThue.TaiDanhSachKhach() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 223
+2026-10-19 10:57:26 [INF] ===== Ứng dụng đóng =====
+2026-10-19 10:58:09 [INF] ===== Ứng dụng Quản lý nhà trọ khởi động =====
+2026-10-19 10:58:09 [INF] Tải thành công 34 tỉnh/thành từ API
+2026-10-19 10:58:09 [ERR] Lỗi khi nạp danh sách phòng
+System.IO.FileNotFoundException: The configuration file 'appsettings.json' was not found and is not optional. The expected physical path was 'D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\bin\Debug\net10.0-windows\appsettings.json'.
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_Config() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 15
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_ConnectionString() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 25
+   at QuanLyNhaTro.FormKhachThue.TaoContext() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 26
+   at QuanLyNhaTro.FormKhachThue.NapComboBoxPhong() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 173
+2026-10-19 10:58:09 [INF] Tải thành công 34 tỉnh/thành từ API
+2026-10-19 10:58:10 [ERR] Lỗi khi nạp danh sách phòng
+System.IO.FileNotFoundException: The configuration file 'appsettings.json' was not found and is not optional. The expected physical path was 'D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\bin\Debug\net10.0-windows\appsettings.json'.
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_Config() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 15
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_ConnectionString() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 25
+   at QuanLyNhaTro.FormKhachThue.TaoContext() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 26
+   at QuanLyNhaTro.FormKhachThue.NapComboBoxPhong() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 173
+2026-10-19 10:58:10 [INF] Tải 126 phường/xã cho tỉnh 1
+2026-10-19 10:58:10 [INF] Tải 126 phường/xã cho tỉnh 1
+2026-10-19 10:58:10 [INF] Tải 126 phường/xã cho tỉnh 1
+2026-10-19 10:58:11 [ERR] Lỗi khi nạp combobox lọc phòng
+System.IO.FileNotFoundException: The configuration file 'appsettings.json' was not found and is not optional. The expected physical path was 'D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\bin\Debug\net10.0-windows\appsettings.json'.
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_Config() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 15
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_ConnectionString() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 25
+   at QuanLyNhaTro.FormKhachThue.TaoContext() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 26
+   at QuanLyNhaTro.FormKhachThue.NapComboBoxLocPhong() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 200
+2026-10-19 10:58:11 [ERR] Lỗi khi nạp danh sách phòng
+System.IO.FileNotFoundException: The configuration file 'appsettings.json' was not found and is not optional. The expected physical path was 'D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\bin\Debug\net10.0-windows\appsettings.json'.
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_Config() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 15
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_ConnectionString() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 25
+   at QuanLyNhaTro.FormKhachThue.TaoContext() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 26
+   at QuanLyNhaTro.FormKhachThue.TaiDanhSachKhach() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 223
+2026-10-19 10:58:13 [ERR] Lỗi khi nạp combobox lọc phòng
+System.IO.FileNotFoundException: The configuration file 'appsettings.json' was not found and is not optional. The expected physical path was 'D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\bin\Debug\net10.0-windows\appsettings.json'.
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_Config() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 15
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_ConnectionString() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 25
+   at QuanLyNhaTro.FormKhachThue.TaoContext() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 26
+   at QuanLyNhaTro.FormKhachThue.NapComboBoxLocPhong() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 200
+2026-10-19 10:58:13 [ERR] Lỗi khi nạp danh sách phòng
+System.IO.FileNotFoundException: The configuration file 'appsettings.json' was not found and is not optional. The expected physical path was 'D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\bin\Debug\net10.0-windows\appsettings.json'.
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_Config() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 15
+   at QuanLyNhaTro.Configuration.ConfigHelper.get_ConnectionString() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\ConfigHelper.cs:line 25
+   at QuanLyNhaTro.FormKhachThue.TaoContext() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 26
+   at QuanLyNhaTro.FormKhachThue.TaiDanhSachKhach() in D:\windowform\chuong11\QuanLyNhaTro\QuanLyNhaTro\Form1.cs:line 223
+2026-10-19 10:58:15 [INF] ===== Ứng dụng đóng =====
+2026-10-19 10:59:07 [INF] ===== Ứng dụng Quản lý nhà trọ khởi động =====
+2026-10-19 10:59:08 [INF] Tải thành công 34 tỉnh/thành từ API
+2026-10-19 10:59:11 [INF] Tải thành công 34 tỉnh/thành từ API
+2026-10-19 10:59:11 [INF] Tải 126 phường/xã cho tỉnh 1
+2026-10-19 10:59:12 [INF] Tải 126 phường/xã cho tỉnh 1
+2026-10-19 10:59:12 [INF] Tải 126 phường/xã cho tỉnh 1
+2026-10-19 10:59:44 [INF] ===== Ứng dụng đóng =====
+2026-10-19 11:00:11 [INF] ===== Ứng dụng Quản lý nhà trọ khởi động =====
+2026-10-19 11:00:12 [INF] Tải thành công 34 tỉnh/thành từ API
+2026-10-19 11:00:14 [INF] Tải thành công 34 tỉnh/thành từ API
+2026-10-19 11:00:14 [INF] Tải 126 phường/xã cho tỉnh 1
+2026-10-19 11:00:14 [INF] Tải 126 phường/xã cho tỉnh 1
+2026-10-19 11:00:14 [INF] Tải 126 phường/xã cho tỉnh 1
+2026-10-19 11:00:17 [INF] ===== Ứng dụng đóng =====
+2026-10-19 11:00:52 [INF] ===== Ứng dụng Quản lý nhà trọ khởi động =====
+2026-10-19 11:00:53 [INF] Tải thành công 34 tỉnh/thành từ API
+2026-10-19 11:00:55 [INF] Tải thành công 34 tỉnh/thành từ API
+2026-10-19 11:00:56 [INF] Tải 126 phường/xã cho tỉnh 1
+2026-10-19 11:00:56 [INF] Tải 126 phường/xã cho tỉnh 1
+2026-10-19 11:00:56 [INF] Tải 126 phường/xã cho tỉnh 1
+2026-10-19 11:00:59 [INF] Tải 102 phường/xã cho tỉnh 66
+2026-10-19 11:00:59 [INF] Tải 102 phường/xã cho tỉnh 66
+2026-10-19 11:01:00 [INF] Tải 102 phường/xã cho tỉnh 66
+2026-10-19 11:01:10 [INF] Thêm khách thuê thành công. MaKhach=6, MaPhong=1
+2026-10-19 11:01:19 [INF] ===== Ứng dụng đóng =====
+2026-10-19 11:04:00 [INF] ===== Ứng dụng Quản lý nhà trọ khởi động =====
+2026-10-19 11:04:01 [INF] Tải thành công 34 tỉnh/thành từ API
+2026-10-19 11:04:03 [INF] Tải thành công 34 tỉnh/thành từ API
+2026-10-19 11:04:03 [INF] Tải 126 phường/xã cho tỉnh 1
+2026-10-19 11:04:03 [INF] Tải 126 phường/xã cho tỉnh 1
+2026-10-19 11:04:03 [INF] Tải 126 phường/xã cho tỉnh 1
+2026-10-19 11:04:22 [INF] ===== Ứng dụng đóng =====
+2026-10-19 11:06:33 [INF] ===== Ứng dụng Quản lý nhà trọ khởi động =====
+2026-10-19 11:06:34 [INF] Tải thành công 34 tỉnh/thành từ API
+2026-10-19 11:06:36 [INF] Tải thành công 34 tỉnh/thành từ API
+2026-10-19 11:06:36 [INF] Tải 126 phường/xã cho tỉnh 1
+2026-10-19 11:06:36 [INF] Tải 126 phường/xã cho tỉnh 1
+2026-10-19 11:06:36 [INF] Tải 126 phường/xã cho tỉnh 1
+2026-10-19 11:10:42 [INF] ===== Ứng dụng Quản lý nhà trọ khởi động =====
+2026-10-19 11:10:44 [INF] Tải thành công 34 tỉnh/thành từ API
+2026-10-19 11:11:09 [INF] ===== Ứng dụng Quản lý nhà trọ khởi động =====
+2026-10-19 11:11:11 [INF] Đã nạp 6 khách thuê vào lưới
+2026-10-19 11:11:11 [INF] Đã nạp 6 khách thuê vào lưới
+2026-10-19 11:11:11 [INF] Đã nạp 6 khách thuê vào lưới
+2026-10-19 11:11:13 [INF] Tải thành công 34 tỉnh/thành từ API
+2026-10-19 11:12:29 [INF] ===== Ứng dụng Quản lý nhà trọ khởi động =====
+2026-10-19 11:12:32 [INF] Đã nạp 6 khách thuê vào lưới
+2026-10-19 11:12:32 [INF] Đã nạp 6 khách thuê vào lưới
+2026-10-19 11:12:32 [INF] Đã nạp 6 khách thuê vào lưới
+2026-10-19 11:12:33 [INF] Tải thành công 34 tỉnh/thành từ API
+2026-10-19 11:12:41 [INF] Tải 38 phường/xã cho tỉnh 12
+2026-10-19 11:12:55 [INF] ===== Ứng dụng đóng =====
